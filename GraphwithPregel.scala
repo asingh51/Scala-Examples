@@ -5,7 +5,7 @@ import org.apache.spark._
 import org.apache.spark.graphx._
 import org.apache.spark.rdd.RDD
 import java.io._
-object Graph {
+object GraphwithPregel {
 def main(args:Array[String])
 {
  val conf = new SparkConf().setAppName("Assignment8GraphX")
